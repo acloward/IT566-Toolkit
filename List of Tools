@@ -1,0 +1,37 @@
+List of used tools 
+
+FTK Imager
+Description: FTK imager is a software program that allows you to create an image of a machine.  It copies a hard drive to an image file of whatever is on the drive. It can also create a hash of the image to verify its integrity for further investigations. 
+Review: FTK is a great tool. The ability to easily create an image from a hard drive makes this tool a great option for on-site or in lab procedures when this method is necessary. The software is simple to learn and easy to use. It can be used for free on a trial period. 
+Notes: Take some time to familiarize yourself with the software before starting. There are great sources of help from google searches
+URL: https://accessdata.com/product-download/ftk-imager-version-3.4.3
+
+Wireshark
+Description: Wireshark is a network monitoring tool. When Wireshark is recording all network traffic will be recorded. This tool allows you to break down traffic to individual packets and investigate what is happening on the network. 
+Review: Wireshark gives you a lot of data. It can quickly eat up storage so be careful when letting it run. IT can be very helpful when you want to break down traffic into packets and see what is going where and how. There is a bit of a learning curve to mastering Wireshark so don’t be afraid to collect data and give it a go. There are plenty of great resources online. 
+Notes: Don’t waste time figuring out the program on your own. Take to Google and YouTube to find help. 
+URL: https://www.wireshark.org/
+
+Volatility
+Description: Volatility is an open source program that captures live memory. It is to be used before turning off or removing a machine as once the machine is off all live memory will be lost. 
+Review: Volatility is my preferred choice to capture live memory. It works on Windows, Mac and Linux machines. It is a great tool and should be apart of every forensics toolkit. 
+Notes: This program ONLY works on live memory so you can’t turn off the computer to pull the same data. 
+Url: https://www.volatilityfoundation.org/26
+
+Netcat
+Description: Netcat is a program which allows a user to write data across the network. It has features like tunneling mode with TCP or UDP to allow secure connections across the network.
+Review: Netcat was used to transfer files from one windows machine to another windows machine on the same network. It worked successfully and proved to be a good solution. This product could be used to transfer files from an on-site seizure to a lab or other similar situations. 
+Notes: Become familiar with the commands for an easier experience. 
+URL: http://netcat.sourceforge.net/download.php
+
+Autopsy
+Description: Autopsy is a digital forensics program that allows one to view all files and history on a system image. It is commonly used by professional , law enforcement, military and for personal use. 
+Review: Autopsy helped us to successfully perform an investigation on 2 windows images. The program yielded great results and helped pull data that was deleted and sitting in the unallocated storage. 
+Notes: This program takes a while to process large images so plan accordingly. 
+URL:  https://www.sleuthkit.org/autopsy/
+
+LiME
+Description: LiME is a live memory extractor for Linux machines. The GitHub description mentions that it minimizes its interaftions between user and kernel space processes during acquisition. 
+Review:
+Notes:
+URL: https://github.com/504ensicsLabs/LiME
